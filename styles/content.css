@@ -1,0 +1,296 @@
+.the-actual-content{
+    width: 468px ;
+    margin-top: 55px ;
+}
+
+.content-header{
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+    padding-left: 4px ;
+    padding-right: 4px ;
+}
+
+.pp-img{
+    height: 32px ;
+    width: 32px ;
+    border-radius: 50% ;
+    margin-right: 12px ;
+}
+
+.profile{
+    display: flex ;
+    align-items: center ;
+    font-size: 14px ;
+    color: rgb(115, 115, 115) ;
+}
+
+.options-dots{
+    width: 15.5px ;
+    cursor: pointer ;
+}
+
+.user-profile-name{
+    font-weight: 500 ;
+    font-size: 14px ;
+    color: black ;
+    cursor: pointer ;
+}
+
+.profile span:hover{
+    color: black ;
+}
+
+.actual-img-post{
+    width: 468px ;
+    border-radius: 4px ;
+}
+
+
+.content-reations{
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+    padding: 0px 4px 0px 4px ;
+    margin-top: 15px ;
+}
+
+.content-reations img{
+    width: 24px ;
+    cursor: pointer ;
+}
+
+.left-reactions{
+    display: flex ;
+    justify-content: space-between ;
+    width: 100px ;
+}
+
+.users-who-reacted{
+    display: flex ;
+    position: relative ;
+    align-items: center ;
+}
+
+.users-who-reacted img{
+    width: 14px ;
+    height: 14px ;
+    border-radius: 50% ;
+}
+
+.users-who-reacted div{
+    width: 17.5px ;
+    height: 17.5px ;
+    border-radius: 50% ;
+    position: absolute ;
+    background-color: white ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+}
+
+.all-reactions{
+    display: flex ;
+    align-items: center ;
+    margin-top: 15px ;
+}
+
+.all-reactions p{
+    margin-left: 36px ;
+    font-weight: 500 ;
+    font-size: 14px ;
+}
+
+.post-caption{
+    font-size: 14px ;
+    margin-top: 10px ;
+    line-height: 18px ;
+}
+
+
+.add-a-comment{
+    display: flex ;
+    justify-content: space-between ;
+    padding-right: 10px ;
+    margin-top: 4px ;
+    border-bottom: solid rgb(219, 219, 219) 0.8px ;
+    padding-bottom: 20px ;
+    margin-bottom: 26px ;
+}
+
+.add-a-comment input{
+    border: none ;
+    font-size: 15px ;
+    width: 440px ;
+}
+
+.add-a-comment img{
+    cursor: pointer ;
+}
+
+.add-a-comment input:focus{
+    outline: none ;
+}
+
+.follow{
+    color: rgb(0, 149, 246) ;
+    font-weight: 500 ;
+    cursor: pointer ;
+}
+
+.follow:hover{
+    color: black ;
+}
+
+
+.pp-with-reel{
+    height: 34px ;
+    width: 34px ;
+    border-radius: 50% ;
+    background: linear-gradient(45deg, rgb(255,202,16), rgb(210,3,197));
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    margin-right: 8px ;
+}
+
+.sub-pp-with-reel{
+    background-color: white ;
+    height: 30px ;
+    width: 30px ;
+    border-radius: 50% ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    padding-left: 12px ;
+}
+
+.more-content-indicator{
+    position: absolute ;
+    display: flex ;
+    justify-content: space-between ;
+    bottom: 14px ;
+}
+
+.more-content-indicator img{
+    width: 10px ;
+    margin-right: 2px ;
+}
+
+.next-img img{
+    width: 22px ;
+    cursor: pointer ;
+    opacity: 0.7 ;
+}
+
+.next-img{
+    position: absolute ;
+    right: 14px ;
+}
+
+.comment-template{
+    display: flex ;
+    justify-content: space-between ;
+    padding-right: 10px ;
+    margin-top: 5px ;
+    font-size: 14px ;
+}
+
+.comment-template img{
+    cursor: pointer ;
+}
+
+.you-cant-comment{
+    font-size: 14px ;
+    display: flex ;
+    justify-content: center ;
+    color: rgb(199, 199, 199) ;
+    margin-top: 7px ;
+    border-bottom: solid rgb(219, 219, 219) 0.8px ;
+    padding-bottom: 20px ;
+}
+
+.overlay-profile{
+    position: absolute ;
+    z-index: 1000000000 ;
+    background-color: white ;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3) ;
+    border-radius: 6px ;
+    padding-top: 15px ;
+    padding-bottom: 15px ;
+    overflow: hidden ;
+    bottom: -260px ;
+    left: 38px ;
+    opacity: 0 ;
+}
+
+.overlay-header{
+    display: flex ;
+    align-items: center ;
+    padding: 0px 0px 0px 12px ;
+}
+
+.stats-box{
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+}
+
+.overlay-stats{
+    display: flex ;
+    justify-content: space-around ;
+    width: 295px ;
+    margin-top: 10px ;
+}
+
+.overlay-images img{
+    width: 100px ;
+}
+
+.overlay-images{
+    display: flex ;
+    justify-content: space-between ;
+    width: 305px ;
+    margin-top: 10px ;
+}
+
+.overlay-btns button img{
+    width: 15px ;
+}
+
+.overlay-btns{
+    display: flex ;
+    justify-content: center ;
+    width: 305px ;
+    margin-top: 10px ;
+}
+
+.overlay-btns button{
+    display: flex ;
+    align-items: center ;
+    font-weight: 500 ;
+    border: none ;
+    font-size: 14px ;
+    border-radius: 4px ;
+    padding: 5px 28px 5px 28px;
+    cursor: pointer ;
+}
+
+.overlay-btns .btn1:hover{
+    background-color:rgb(1, 137, 228) ;
+}
+
+.btn1{
+    color: white ; 
+    background-color: rgb(0,149,246) ; 
+    margin-right: 6px ;
+}
+
+.overlay-btns .btn2:hover{
+    background-color:rgb(217, 217, 217);
+}
+
+.profile:hover .overlay-profile{
+    opacity: 1 ;
+}
+

@@ -1,0 +1,29 @@
+*{
+    padding: 0px ;
+    margin: 0px ;
+    box-sizing: border-box ;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif ;
+    transition: 0.15s ;
+}
+
+body{
+    display: grid ;
+    grid-template-columns: 245px 1fr;
+    position: fixed ;
+    left: 0px ;
+    right: 0px ;
+    bottom: 0px ;
+    top: 0px ;
+}
+
+@media(max-width: 1263px){
+    body{
+        display: grid ;
+        grid-template-columns: 73px 1fr ;
+        position: fixed ;
+        left: 0px ;
+        right: 0px ;
+        bottom: 0px ;
+        top: 0px ;
+    }
+}
